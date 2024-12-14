@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaLibre</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">TiendaLibre</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+                aria-controls="navbar-content" aria-expanded="false" aria-label="Mostrar/Ocultar Navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div  class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <!--DROPDOWN-->
+                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                            </a>
+                            <!--DROPDOWN ITEM-->
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Computadoras</a></li>
+                                <li><a href="#" class="dropdown-item">Laptops</a></li>
+                                <li><a href="#" class="dropdown-item">Smartphones</a></li>
+                                <li><a href="#" class="dropdown-item">Drones</a></li>
+                                <li><a href="#" class="dropdown-item">Accesorios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input type="search" class="form-control me-2" aria-label="Buscar" placeholder="Buscar">
+                        <button class="btn btn-success">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
